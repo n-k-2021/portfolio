@@ -1,0 +1,458 @@
+.bubble1 {
+  background-color: rgb(240, 240, 240);
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  border-radius: 1em 1em 0 0;
+  border: 7px solid rgb(240, 240, 240);
+  text-align: center;
+}
+
+.bubble2 {
+  background-color: white;
+  padding: 2em;
+  box-sizing: border-box;
+  border-radius: 0 0 1em 1em;
+  border: 7px solid rgb(240, 240, 240);
+  border-top: none;
+}
+
+h2 {
+  margin-top: 2em;
+  font-weight: 700;
+}
+
+.bubble {
+  position: relative;
+}
+
+.icon {
+  width: 100%;
+}
+
+#myname p {
+  font-family: century-gothic;
+  text-align: center;
+  font-weight: 700;
+}
+
+#myname .school {
+  padding-top: 2rem;
+}
+
+#myname .name {
+  font-size: 3.5em;
+  margin-top: -.15em;
+  padding: 0 0 3rem 0;
+}
+
+#hash {
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 5em;
+}
+
+#hash p {
+  margin: 2em 0 0 0;
+}
+
+#hash p span {
+  width: auto;
+  font-size: 1.8em;
+  padding: .3em .6em;
+  background: linear-gradient(transparent 7%, #E8E150 7%);
+  font-weight: 700;
+}
+
+#upside {
+  height: 25em;
+  text-align: center;
+  position: relative;
+}
+
+#upside .outer {
+  text-align: center;
+}
+
+#upside .iam {
+  height: 100%;
+}
+
+#upside .left_hand {
+  height: 4em;
+  position: absolute;
+  bottom: -2.2em;
+  right: -webkit-calc(50% - 15em);
+  right: calc(50% - 15em);
+}
+
+#upside .right_hand {
+  height: 4em;
+  position: absolute;
+  bottom: -2.2em;
+  left: -webkit-calc(50% - 15em);
+  left: calc(50% - 15em);
+}
+
+#upside .kado {
+  height: 4.1em;
+  position: absolute;
+  bottom: -4.2em;
+  left: .1em;
+}
+
+#upside::before {
+	position: absolute;
+  bottom: -4.7em;
+  left: 0em;
+	content: "";
+	display: inline-block;
+	height: 4.5em;
+  width: 4.5em;
+	background-size: contain;
+  background: url(vector/kado.svg) no-repeat;
+}
+
+#upside .glasses {
+  width: 12em;
+  position: absolute;
+  bottom: 11.75em;
+  left: -webkit-calc(50% - 6em);
+  left: calc(50% - 6em);
+  animation-name: huwa;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1.5s;
+}
+
+@keyframes huwa {
+    0% {
+        transform: translate(0,5px);
+    }
+    100% {
+        transform: translate(0,-5px)
+    }
+}
+
+#plate {
+  background-color: white;
+  border-top: 7px solid rgb(80, 80, 80);
+  padding-bottom: 5em;
+  border-bottom: 7px solid rgb(80, 80, 80);
+  border-top-left-radius: 5em;
+}
+
+#downside {
+  height: 20em;
+  text-align: center;
+  position: relative;
+}
+
+#downside .foot {
+  height: 100%;
+}
+
+#downside .sports {
+  height: 40%;
+  position: absolute;
+  right: 40.958px;
+  bottom: 0;
+}
+
+.work01 {
+  width: 49.75%;
+  height: 49.75%;
+  float: left;
+  margin-right: .5%;
+}
+
+.work02, .work03, .work04, .work05 {
+  width: 24.625%;
+  height: 24.625%;
+  margin-bottom: .5%;
+  float: left;
+}
+
+.work02, .work04 {
+  margin-right: .5%;
+}
+
+.work04, .work05 {
+  margin-bottom: 0;
+}
+
+.tag {
+  position: absolute;
+  bottom: 0;
+  font-size: .7em;
+  padding: 1em;
+  box-sizing: border-box;
+  color: white;
+  z-index: 99;
+}
+
+.more {
+  height: auto;
+  width: 15em;
+  border: 1.5px solid rgb(80, 80, 80);
+  border-radius: 2em;
+  margin: 2em auto 0 auto;
+  transition: .3s;
+  overflow: hidden;
+}
+
+.more a {
+  padding: .45em 0;
+  display: block;
+  text-align: center;
+  position: relative;
+}
+
+.more a::after {
+  position: absolute;
+  top: 50%;
+  right: 1em;
+  width: 0.5em;
+  height: 0.5em;
+  transform: translateY(-50%) rotate(45deg);
+  border-right: 1.5px solid currentColor;
+  border-top: 1.5px solid currentColor;
+  content: "";
+}
+.more:hover {
+  background-color: rgb(80, 80, 80, .1);
+}
+
+.title, .detail {
+  padding: 2em;
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+  border-bottom: none;
+  background-color: rgb(240, 240, 240);
+  border: 7px solid rgb(240, 240, 240);
+  border-radius: 1em 1em 0 0;
+  padding: 1em 2rem;
+  font-size: 1.3em;
+  box-sizing: border-box;
+}
+
+.detail {
+  border-radius: 0 0 1em 1em;
+  border: 7px solid rgb(240, 240, 240);
+  border-top: none;
+}
+
+.hash {
+  text-align: left;
+  margin-bottom: 1em;
+  letter-spacing: -.4em;
+}
+
+.hash p {
+  display: inline-block;
+  font-size: .8rem;
+  margin-right: .5rem;
+  margin-bottom: .5rem;
+  letter-spacing: normal;
+}
+
+.rough {
+  margin: 1em 0;
+}
+
+.hash p span {
+  padding: .3em .6em;
+  background: linear-gradient(transparent 7%, #E8E150 7%);
+  font-weight: 700;
+}
+
+.inner {
+  width: 100%;
+  height: auto;
+}
+
+.inner0 {
+  width: 30%;
+  float: left;
+  word-wrap: break-word;
+}
+
+.inner1 {
+  width: 70%;
+  float: left;
+  padding-left: 1em;
+  box-sizing: border-box;
+}
+
+.table0 {
+  font-size: .8em;
+  margin-bottom: -.25em;
+  color: rgb(180, 180, 180);
+}
+
+.table1 {
+  margin-bottom: .4em;
+}
+
+.hiragananame {
+  color: rgb(180, 180, 180);
+}
+
+.kanjiname {
+  margin-top: -.4em;
+  font-size: 2.2em;
+}
+
+#icon {
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: start;
+  margin-top: 1em;
+}
+
+.soft {
+  width: 10.75%;
+  margin-right: 2%;
+  text-align: center;
+  padding: 1em 0;
+  box-sizing: border-box;
+  font-size: 0.9em;
+  border-radius: 1em;
+  word-wrap: break-word;
+}
+.soft {
+  font-size: .8em;
+}
+.soft img {
+  height: 2.5em;
+  margin-bottom: 0.5em;
+}
+.soft:nth-child(8n) {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  #downside .sports {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  #myname .school {
+    padding-top: 6rem;
+    font-size: .8em
+  }
+
+  #myname .name {
+    font-size: 2.2em;
+    padding: 0 0 2rem 0;
+  }
+
+  #upside, #downside {
+    height: 15em;
+  }
+  #plate {
+    border-top: 4px solid rgb(80, 80, 80);
+    border-bottom: 4px solid rgb(80, 80, 80);
+  }
+
+  .bubble2, .title, .detail {
+    border: 4px solid rgb(240, 240, 240);
+  }
+
+  #upside .left_hand {
+    height: 2.5em;
+    bottom: -1.37em;
+    right: -webkit-calc(50% - 8em);
+    right: calc(50% - 8em);
+  }
+
+  #upside .right_hand {
+    height: 2.5em;
+    bottom: -1.37em;
+    left: -webkit-calc(50% - 8em);
+    left: calc(50% - 8em);
+  }
+
+  #upside .glasses {
+    width: 7em;
+    position: absolute;
+    bottom: 7.1em;
+    left: -webkit-calc(50% - 3.5em);
+    left: calc(50% - 3.5em);
+  }
+
+  #hash {
+    padding-bottom: 2.6em;
+  }
+
+  #hash p {
+    margin: .4em 0 0 0;
+  }
+
+  #hash p span {
+    width: auto;
+    font-size: .9em;
+    padding: .3em .6em;
+    background-color: #E8E150;
+  }
+
+  @keyframes huwa {
+      0% {
+          transform: translate(0,3px);
+      }
+      100% {
+          transform: translate(0,-3px)
+      }
+  }
+
+  #name::before {
+    top: 40%;
+    left: 10%;
+    width: 80%;
+  }
+
+  .work01 {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 1%;
+    margin-right: 0;
+  }
+
+  .work02, .work03 {
+    width: 49.5%;
+    height: 49.5%;
+  }
+
+  .work02 {
+    margin-right: 1%;
+  }
+
+  .work04, .work05 {
+    display: none;
+  }
+
+  .inner0, .inner1 {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .soft {
+    width: 23.5%;
+  }
+
+  .soft:nth-child(4n) {
+    margin-right: 0;
+  }
+
+  .soft:nth-child(n+5) {
+    margin-top: 2%;
+  }
+}

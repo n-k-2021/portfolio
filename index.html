@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kosei Nakamura</title>
+    <link rel="icon" type="image/x-icon" href="vector/logo.svg">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="loader-wrap">
+    	<div class="loader">Loading...</div>
+    </div>
+    <header>
+      <div class="outer">
+        <div class="head">
+          <a href="index.html"><img src="vector/logo.svg" alt="ロゴの画像"></a>
+          <div id="burger">
+            <span></span>
+            <span></span>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="index.html"  class="link">ホーム</a></li>
+              <li><a href="works.html">作品集</a></li>
+              <li><a href="#research" class="link">研究紹介</a></li>
+              <li><a href="#about"  class="link">私について</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div id="myname">
+      <p class="school">Graduate School of Wakayama University</p>
+      <p class="name">Kosei Nakamura</p>
+    </div>
+
+    <div id="upside">
+      <img src="vector/iam.svg" class="iam" alt="自分のイラスト">
+      <img src="vector/glasses.svg" class="glasses" alt="メガネのイラスト">
+      <img src="vector/left_hand.svg" class="left_hand" alt="自分の左手のイラスト">
+      <img src="vector/right_hand.svg" class="right_hand" alt="自分の右手のイラスト">
+      <div class="outer">
+        <div id="hash">
+          <p><span>#企画</span></p>
+          <p><span>#分析</span></p>
+          <p><span>#デザイン</span></p>
+          <p><span>#プログラミング</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div id="plate">
+      <div id="works" class="outer">
+        <h1>作品集</h1>
+        <div class="clearfix">
+          <a href="works/01.html">
+            <div class="work01 img">
+              <img src="works/photo/01-1.png" alt="見出し画像">
+              <span><div>+</div></span>
+              <div class="tag">全国コンペ最優秀賞受賞作品<br>IoTゴミ出し支援サービス</div>
+            </div>
+          </a>
+          <a href="works/02.html">
+            <div class="work02 img">
+              <img src="works/photo/02-1.png" alt="見出し画像">
+              <span><div>+</div></span>
+              <div class="tag">全国コンペ最優秀賞受賞<br>ドーナツ手すり</div>
+            </div>
+          </a>
+          <a href="works/05.html">
+            <div class="work03 img">
+              <img src="works/photo/05-1.png" alt="見出し画像">
+              <span><div>+</div></span>
+              <div class="tag">家族の会話をつくるアプリ「KYONO」</div>
+            </div>
+          </a>
+          <a href="works/04.html">
+            <div class="work04 img">
+              <img src="works/photo/04-1.png" alt="見出し画像">
+              <span><div>+</div></span>
+              <div class="tag">研究室ホームページ</div>
+            </div>
+          </a>
+          <a href="works/06.html">
+            <div class="work05 img">
+              <img src="works/photo/06-1.png" alt="見出し画像">
+              <span><div>+</div></span>
+              <div class="tag">絵本クリエイトアプリ「picbook」</div>
+            </div>
+          </a>
+        </div>
+        <div class="more bold">
+          <a href="works.html">もっと見る</a>
+        </div>
+      </div>
+      <div id="research" class="outer">
+        <h1>研究紹介</h1>
+        <div class="title">
+          <p class="bold">形式概念分析による包含関係を反映したラフ集合決定ルール条件部表記法の提案</p>
+        </div>
+        <div class="detail">
+          <div class="hash">
+            <p><span>#データマイニング</span></p>
+            <p><span>#デザイン方法論</span></p>
+            <p><span>#マーケティング</span></p>
+            <p><span>#ラフ集合</span></p>
+            <p><span>#形式概念分析</span></p>
+            <p><span>#Python</span></p>
+            <p><span>#Javascript</span></p>
+          </div>
+          <p>データマイニング手法「ラフ集合」の課題解決に関する研究を行っています。
+            ラフ集合とは原因（デザイン属性など）と結果（イメージ）の関係を分析し、その関係を決定ルールと呼ばれる表記法で出力します。
+            決定ルールとは以下に示したようなもので、あるイメージを結論（結果）としたときに、その結論を満たすための属性の組み合わせ（原因）
+            をIf-Then 形式で表したものです。</p>
+            <p class="rough bold">If[カラー：色彩系]and[造形：有機的]Then[イメージ：かわいい]</p>
+            <p>この決定ルールという表記法はデータを理解しやすい点で非常に優れていますが、いくつかの課題があります。そこで私は、形式概念分析という別のデータマイニング手法を組み合わせるなど、課題解決のための操作を加えた新たな表記法を開発しました。
+            また、この表記法が得られるデータマイニングシステムを開発しました。
+            研究成果として、ラフ集合の課題解決に加え、ラフ集合単体では得られなかった知識の抽出に成功しています。
+          </p>
+        </div>
+      </div>
+
+      <div class="outer bubble" id="about">
+        <h1>私について</h1>
+        <div class="bubble1">
+          <p class="hiragananame">なかむらこうせい</p>
+          <p class="kanjiname bold">中村鴻成</p>
+        </div>
+        <div class="bubble2">
+          <div class="hash">
+            <p><span>#シンプルが好き</span></p>
+            <p><span>#節約が好き</span></p>
+            <p><span>#リアクション動画が好き</span></p>
+            <p><span>#映画が好き</span></p>
+            <p><span>#人間観察が好き</span></p>
+            <p><span>#180度開脚チャレンジ中</span></p>
+            <p><span>#目指せボウリング200UP</span></p>
+            <p><span>#最近憧れのメガネ購入</span></p>
+          </div>
+          <p>サイトをご覧いただきありがとうございます。和歌山大学大学院システム工学研究科１年生の中村鴻成と申します。
+            学部時代は情報技術（プログラミング、情報の基本知識）とデザイン（ユーザエクスペリエンスデザイン、人間工学）を学び、
+            それらを発揮した作品制作に注力しました。作品制作では、課題やニーズを理解するためにエンドユーザの視点になり共感することを一番意識し、「相手の立場に立った課題解決力」は私の強みになりました。
+            この強みを発揮し、お客様ですら気づけていない課題やニーズを把握し、まだ世にないものを新しく生み出したいです！
+          </p>
+          <div class="clearfix inner">
+            <div class="inner0">
+              <h2>Detail</h2><hr>
+              <div class="clearfix">
+                <p class="table0">最終学歴</p>
+                <p class="table1">和歌山大学卒業</p>
+              </div>
+              <div class="clearfix">
+                <p class="table0">現在の所属</p>
+                <p class="table1">和歌山大学大学院</p>
+              </div>
+              <div class="clearfix">
+                <p class="table0">研究科</p>
+                <p class="table1">システム工学</p>
+              </div>
+              <div class="clearfix">
+                <p class="table0">専攻</p>
+                <p class="table1">システム工学（デザイン科学）</p>
+              </div>
+              <div class="clearfix">
+                <p class="table0">研究室</p>
+                <p class="table1">デザインシステム計画研究室</p>
+              </div>
+              <div class="clearfix">
+                <p class="table0">お問い合わせ</p>
+                <p class="table1">nakamura.kosei@g.wakayama-u.jp</p>
+              </div>
+            </div>
+            <div class="inner1">
+              <h2>Award</h2><hr>
+              <div class="clearfix">
+                <p class="table0">2020-12</p>
+                <p class="table1">株式会社ユニバーサルスペース主催 第2回ユニバーサルデザインコンテスト 優秀賞受賞</p>
+              </div>
+              <div class="clearfix">
+                <p class="table0">2020-04</p>
+                <p class="table1">Student of Academic Excellent 受賞</p>
+              </div>
+              <div class="clearfix">
+                <p class="table0">2020-03</p>
+                <p class="table1">学部長表彰受賞</p>
+              </div>
+              <div class="clearfix">
+                <p class="table0">2019-12</p>
+                <p class="table1">京セラコミュニケーションシステム株式会社主催 Iotアイデアコンテスト 最優秀賞受賞</p>
+              </div>
+              <div class="clearfix">
+                <p class="table0">2019-09</p>
+                <p class="table1">株式会社ユニバーサルスペース主催 第1回ユニバーサルデザインコンテスト 最優秀賞受賞</p>
+              </div>
+              <div class="clearfix">
+                <p class="table0">2019-09</p>
+                <p class="table1">オージス総研主催 OGIS-RI Software Challenge Award 一次審査通過</p>
+              </div>
+            </div>
+          </div>
+          <h2>Qualification</h2><hr>
+          <div class="clearfix">
+            <p class="table0">2017-09</p>
+            <p class="table1">普通自動車第一種運転免許（AT限定）取得</p>
+          </div>
+          <div class="clearfix">
+            <p class="table0">2021-07</p>
+            <p class="table1">認定人間工学準専門家 取得</p>
+          </div>
+          <h2>Skills</h2><hr>
+          <div id="icon" class="clearfix">
+            <div class="soft"><img src="vector/Python.svg" alt="Pythonのアイコン"><p>Python</p></div>
+            <div class="soft"><img src="vector/Javascript.svg" alt="Javascriptのアイコン"><p>Javascript</p></div>
+            <div class="soft"><img src="vector/PHP.svg" alt="PHPのアイコン"><p>PHP</p></div>
+            <div class="soft"><img src="vector/MySQL.svg" alt="MySQLのアイコン"><p>MySQL</p></div>
+            <div class="soft"><img src="vector/HTML.svg" alt="HTMLのアイコン"><p>HTML</p></div>
+            <div class="soft"><img src="vector/CSS.svg" alt="CSSのアイコン"><p>CSS</p></div>
+            <div class="soft"><img src="vector/Illustrator.svg" alt="Illustratorのアイコン"><p>Illustrator</p></div>
+            <div class="soft"><img src="vector/Photoshop.svg" alt="Photoshopのアイコン"><p>Photoshop</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="downside" class="outer">
+      <img src="vector/foot.svg" class="foot" alt="自分の脚のイラスト">
+      <img src="vector/sports.svg" class="sports" alt="経験したスポーツのイラスト">
+    </div>
+
+    <h1>コンタクト</h1>
+    <div class="outer" id="contact">
+      <p>お問い合わせはこちらのメールアドレスより受け付けております。<br>
+      お気軽にお問い合わせください。</p>
+      <div><a href="mailto:nakamura.kosei@g.wakayama-u.jp">nakamura.kosei@g.wakayama-u.jp</a></div>
+    </div>
+    <footer>
+      <div class="outer">
+        <div>
+          <a href="index.html"><img src="vector/logo-white.svg" alt="ロゴの画像"></a>
+          <ul class="clearfix">
+            <li><a href="#">ホーム</a></li>
+            <li><a href="works.html">作品集</a></li>
+            <li><a href="#research">研究紹介</a></li>
+            <li><a href="#about">私について</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="c">© 2021 Kosei Nakamura</p>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="function.js"></script>
+  </body>
+</html>
